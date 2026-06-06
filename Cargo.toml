@@ -1,0 +1,14 @@
+[package]
+name = "symplectic-fleet"
+version = "0.1.0"
+edition = "2024"
+description = "Fleet state modeled as a symplectic manifold with Hamiltonian evolution, Noether conservation laws, and structure-preserving integrators"
+license = "MIT"
+repository = "https://github.com/SuperInstance/symplectic-fleet"
+keywords = ["symplectic", "hamiltonian", "noether", "fleet", "dynamics"]
+categories = ["mathematics", "science", "simulation"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
